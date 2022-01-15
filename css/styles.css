@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+
+.contenedor{
+    max-width: 1100px;
+    margin:  0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+h2{
+    text-align: center;
+    font-family: "Libre Baskerville" , serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1398cb;
+}
+
+h3{
+    font-family: "Libre Baskerville" , serif;
+    margin: 0px;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width:480px){
+    .contenido-principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .entrada{
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+
+@media screen and (min-width:768px){
+    .entrada{
+        flex: 0 1 calc(33% - 1rem);
+    }
+}
+
+.contenido{
+    background-color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.contenido h3{
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+
+.contenido span{
+    color: #db008d;
+}
+
+.boton{
+    display: inline-block;
+    background-color: #009fd1;
+    color: white;
+    padding: .8rem 3rem;
+    text-decoration: none;
+    margin-top: 15px;
+}
