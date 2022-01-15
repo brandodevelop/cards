@@ -3,6 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #f2f2f2;
+    background-color: #141414;
 }
 
 .contenedor{
@@ -20,7 +21,7 @@ h2{
     font-family: "Libre Baskerville" , serif;
     font-size: 1.7rem;
     font-weight: 700;
-    color: #1398cb;
+    color: #fff;
 }
 
 h3{
@@ -28,6 +29,7 @@ h3{
     margin: 0px;
     font-weight: 700;
 }
+
 
 
 @media screen and (min-width:480px){
@@ -47,9 +49,13 @@ h3{
     }
 }
 
-.contenido{
-    background-color: #fff;
+.entrada{
+    border: 1px solid #fff;
+    border-radius: 5px;
     margin-bottom: 1rem;
+}
+.contenido{
+    color: white;
     text-align: center;
     padding: 1rem;
     text-transform: uppercase;
@@ -62,12 +68,12 @@ h3{
 }
 
 .contenido span{
-    color: #db008d;
+    color: #e50914;
 }
 
 .boton{
     display: inline-block;
-    background-color: #009fd1;
+    background-color: #e50914;
     color: white;
     padding: .8rem 3rem;
     text-decoration: none;
